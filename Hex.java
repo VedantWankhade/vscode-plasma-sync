@@ -7,7 +7,7 @@ class Hex {
         String[] rgb = args[0].split(",");
         // System.out.println(Arrays.toString(rgb));
 
-        String hex = "#";
+        String hex = "";
 
         for (String token: rgb) {
             // System.out.println(token);
